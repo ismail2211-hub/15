@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background: #fff;
+}
+
+.logo {
+  height: 40px;
+}
+
+.address-btn {
+  background-color: #f64d62;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #000;
+}
+
+.promo-banner img {
+  width: 100%;
+  display: block;
+}
+
+.section-title {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 24px;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 20px;
+  padding: 0 20px 40px;
+}
+
+.main{
+
+}
+
+
+.menu-card {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+}
+
+.menu-card img {
+  width: 100%;
+  max-height: 120px;
+  object-fit: contain;
+}
+
+.price {
+  color: #f64d62;
+  font-weight: bold;
+}
+
+.add-btn {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background: #f64d62;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  background-color: #f9f9f9;
+}
+
+.footer-logo {
+  height: 30px;
+  margin-top: 10px;
+}
